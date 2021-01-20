@@ -1,10 +1,21 @@
 body {
-    background: linear-gradient(to right, #f802f5, #1c79e3);
+    background-color: #808080;
     color: white;
     display: flex;
-    align-items: center; #f802f5 #1c79e3
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
     justify-content: center;
     width: 100%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
 }
 .nav-link{
     margin: 0px 2px 0px 2px;
@@ -18,7 +29,7 @@ body {
 }
 .nav-item:hover{
     cursor: pointer;
-    background-color: rgb(0, 221, 221);
+    background-color: rgb(128, 128, 128);
 }
 .nav-link:hover{
     cursor: pointer;
